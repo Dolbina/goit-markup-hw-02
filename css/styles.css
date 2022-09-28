@@ -62,7 +62,6 @@ body{
 /* header */
 .logo{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -78,7 +77,7 @@ body{
 .link-nav{
 
 }
-.site-nav.link.current{
+.current{
 color: var(--accent-color)
 }
 /* hero */
@@ -88,7 +87,6 @@ color: var(--accent-color)
 .hero-title{
     color: var(--hero-text-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.35;
@@ -97,7 +95,7 @@ color: var(--accent-color)
     text-transform: uppercase;
 }
 .button{
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -122,3 +120,10 @@ color: var(--accent-color)
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  .address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-color);
